@@ -86,11 +86,12 @@ namespace GumIndependentResolution
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
 
             GraphicsDevice.SetRenderTarget(_renderTarget);
+            GraphicsDevice.Clear(Color.Transparent);
             GumService.Default.Draw();
             GraphicsDevice.SetRenderTarget(null);
+            GraphicsDevice.Clear(Color.CornflowerBlue);
             spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend, transformMatrix: ResolutionBuddy.Resolution.TransformationMatrix());
             spriteBatch.Draw(_renderTarget, Vector2.Zero, Color.White);
             spriteBatch.End();
