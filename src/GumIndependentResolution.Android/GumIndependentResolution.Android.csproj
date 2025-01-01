@@ -26,6 +26,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Gum.KNI" Version="2024.12.29.1" />
     <PackageReference Include="nkast.Xna.Framework" Version="3.14.9001" />
     <PackageReference Include="nkast.Xna.Framework.Content" Version="3.14.9001" />
     <PackageReference Include="nkast.Xna.Framework.Graphics" Version="3.14.9001" />
