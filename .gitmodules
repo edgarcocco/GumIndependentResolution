@@ -1,3 +1,6 @@
 [submodule "libs/ResolutionBuddy"]
 	path = libs/ResolutionBuddy
 	url = https://github.com/dmanning23/ResolutionBuddy.git
+[submodule "libs/MatrixExtensions"]
+	path = libs/MatrixExtensions
+	url = https://github.com/dmanning23/MatrixExtensions.git
