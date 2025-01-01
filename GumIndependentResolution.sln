@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GumIndependentResolution.An
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GumIndependentResolution.WindowsDX", "src\GumIndependentResolution.WindowsDX\GumIndependentResolution.WindowsDX.csproj", "{B21B8D77-B77B-4219-984C-AD0D7EF849C2}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ResolutionBuddy.SharedProject", "libs\ResolutionBuddy\ResolutionBuddy\ResolutionBuddy.SharedProject\ResolutionBuddy.SharedProject.shproj", "{30AD6316-9429-458E-A160-4F77C9A25D8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,12 +51,18 @@ Global
 		{B878DFDE-CFE3-4E3E-9FE5-80E7FA386F86} = {9B67AF4B-FB93-4B84-908A-8F922D806501}
 		{754B6D63-D3B2-4038-98A6-2D9E0427C527} = {9B67AF4B-FB93-4B84-908A-8F922D806501}
 		{B21B8D77-B77B-4219-984C-AD0D7EF849C2} = {9B67AF4B-FB93-4B84-908A-8F922D806501}
+		{30AD6316-9429-458E-A160-4F77C9A25D8B} = {9B67AF4B-FB93-4B84-908A-8F922D806501}
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		libs\ResolutionBuddy\ResolutionBuddy\ResolutionBuddy.SharedProject\ResolutionBuddy.SharedProject.projitems*{30ad6316-9429-458e-a160-4f77c9a25d8b}*SharedItemsImports = 13
+		libs\ResolutionBuddy\ResolutionBuddy\ResolutionBuddy.SharedProject\ResolutionBuddy.SharedProject.projitems*{754b6d63-d3b2-4038-98a6-2d9e0427c527}*SharedItemsImports = 5
 		src\GumIndependentResolution.Shared\GumIndependentResolution.Shared.projitems*{754b6d63-d3b2-4038-98a6-2d9e0427c527}*SharedItemsImports = 5
+		libs\ResolutionBuddy\ResolutionBuddy\ResolutionBuddy.SharedProject\ResolutionBuddy.SharedProject.projitems*{b21b8d77-b77b-4219-984c-ad0d7ef849c2}*SharedItemsImports = 5
 		src\GumIndependentResolution.Shared\GumIndependentResolution.Shared.projitems*{b21b8d77-b77b-4219-984c-ad0d7ef849c2}*SharedItemsImports = 5
+		libs\ResolutionBuddy\ResolutionBuddy\ResolutionBuddy.SharedProject\ResolutionBuddy.SharedProject.projitems*{b878dfde-cfe3-4e3e-9fe5-80e7fa386f86}*SharedItemsImports = 5
 		src\GumIndependentResolution.Shared\GumIndependentResolution.Shared.projitems*{b878dfde-cfe3-4e3e-9fe5-80e7fa386f86}*SharedItemsImports = 5
 		src\GumIndependentResolution.Shared\GumIndependentResolution.Shared.projitems*{b9cedf7a-49a3-4c6a-8112-8c05ddda6bd9}*SharedItemsImports = 13
+		libs\ResolutionBuddy\ResolutionBuddy\ResolutionBuddy.SharedProject\ResolutionBuddy.SharedProject.projitems*{dcecc9a8-ea89-4d98-a35d-979170c86482}*SharedItemsImports = 5
 		src\GumIndependentResolution.Shared\GumIndependentResolution.Shared.projitems*{dcecc9a8-ea89-4d98-a35d-979170c86482}*SharedItemsImports = 5
 	EndGlobalSection
 EndGlobal

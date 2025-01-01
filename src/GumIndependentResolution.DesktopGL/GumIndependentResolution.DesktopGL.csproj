@@ -53,5 +53,6 @@
     <None Include="app.manifest" />
   </ItemGroup>
   <Import Project="..\GumIndependentResolution.Shared\GumIndependentResolution.Shared.projitems" Label="Shared" />
+  <Import Project="..\..\libs\ResolutionBuddy\ResolutionBuddy\ResolutionBuddy.SharedProject\ResolutionBuddy.SharedProject.projitems" Label="Shared" />
 
 </Project>
