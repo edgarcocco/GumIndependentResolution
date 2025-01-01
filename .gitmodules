@@ -1,0 +1,4 @@
+[submodule "libs/ResolutionBuddy"]
+	path = libs/ResolutionBuddy
+	url = https://github.com/dmanning23/ResolutionBuddy.git
+

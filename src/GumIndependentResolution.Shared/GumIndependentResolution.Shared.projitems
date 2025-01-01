@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>b9cedf7a-49a3-4c6a-8112-8c05ddda6bd9</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>GumIndependentResolution</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)GumIndependentResolutionGame.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\EventExport\gum_events.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\ExampleSpriteFrame.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\FontCache\Font10Arial_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\FontCache\Font12Arial_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\FontCache\Font14Arial_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\FontCache\Font14Arial_Bold_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\FontCache\Font14Arial_Italic_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\FontCache\Font16Arial_Bold_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\FontCache\Font18Arial_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\FontCache\Font18Arial_Bold_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\FontCache\Font22Arial_Bold_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\FontCache\Font28Arial_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\FontCache\Font28Arial_Bold_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\FreeFantasyGUI\png\Button.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\FreeFantasyGUI\png\README.txt" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\FreeFantasyGUI\png\Windows.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\main_game_title.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Buttons\Rect\Exit\Default.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Buttons\Rect\Exit\Hover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Buttons\Rect\OKText\Default.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Buttons\Rect\OKText\Hover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Buttons\Rect\PlayIcon\Default.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Buttons\Rect\PlayIcon\Hover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Buttons\Rect\PlayText\Default.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Buttons\Rect\PlayText\Hover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Buttons\Square\ArrowLeft-Bold\Default.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Buttons\Square\ArrowLeft-Bold\Hover.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Buttons\Square\ArrowLeft-Thin\Default.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Buttons\Square\ArrowLeft-Thin\Hover.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Buttons\Square\ArrowRight-Bold\Default.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Buttons\Square\ArrowRight-Bold\Hover.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Buttons\Square\ArrowRight-Thin\Default.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Buttons\Square\ArrowRight-Thin\Hover.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Buttons\Square\Home\Default.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Buttons\Square\Home\Hover.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Buttons\Square\Levels\Default.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Buttons\Square\Levels\Hover.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Buttons\Square\Pause\Default.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Buttons\Square\Pause\Hover.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Buttons\Square\Play\Default.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Buttons\Square\Play\Hover.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Buttons\Square\Repeat\Default.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Buttons\Square\Repeat\Hover.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Buttons\Square\SoundOff\Default.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Buttons\Square\SoundOff\Hover.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Buttons\Square\SoundOn\Default.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Buttons\Square\SoundOn\Hover.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Buttons\Square\Star\Default.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Buttons\Square\Star\Hover.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Button\Icon\ArrowLeft-Bold.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Button\Icon\ArrowLeft-Thin.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Button\Icon\ArrowRight-Bold.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Button\Icon\ArrowRight-Thin.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Button\Icon\Home.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Button\Icon\Levels.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Button\Icon\Pause.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Button\Icon\Play.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Button\Icon\Replay.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Button\Icon\SoundOff.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Button\Icon\SoundOn.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Button\Icon\Star.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Button\Rect\Default.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Button\Rect\Hover.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Button\Square\Default.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Button\Square\Hover.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Counter\Example.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Counter\Icon\Dummy.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Counter\Icon\Money.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Counter\Icon\Time.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Counter\Plate\Default.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\ArrowLeft%400.5x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\ArrowLeft%402x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\ArrowLeft%404x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\ArrowLeft-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\ArrowLeft-Thin%400.5x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\ArrowLeft-Thin%402x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\ArrowLeft-Thin%404x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\ArrowLeft-Thin-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\ArrowLeft-Thin.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\ArrowLeft.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\ArrowRight%400.5x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\ArrowRight%402x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\ArrowRight%404x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\ArrowRight-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\ArrowRight-Thin%400.5x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\ArrowRight-Thin%402x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\ArrowRight-Thin%404x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\ArrowRight-Thin-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\ArrowRight-Thin.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\ArrowRight.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Cross%400.5x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Cross%402x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Cross%404x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Cross-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Cross.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Heart%400.5x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Heart%402x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Heart%404x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Heart-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Heart.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Home%400.5x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Home%402x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Home%404x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Home-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Home.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Levels%400.5x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Levels%402x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Levels%404x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Levels-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Levels.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Locker%400.5x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Locker%402x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Locker%404x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Locker-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Locker.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Mark%400.5x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Mark%402x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Mark%404x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Mark-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Mark.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Pause%400.5x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Pause%402x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Pause%404x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Pause-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Pause.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Play%400.5x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Play%402x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Play%404x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Play-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Play.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Replay%400.5x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Replay%402x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Replay%404x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Replay-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Replay.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Shield%400.5x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Shield%402x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Shield%404x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Shield-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Shield.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\SoundOff%400.5x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\SoundOff%402x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\SoundOff%404x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\SoundOff-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\SoundOff.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\SoundOn%400.5x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\SoundOn%402x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\SoundOn%404x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\SoundOn-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\SoundOn.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Spark%400.5x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Spark%402x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Spark%404x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Spark-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Spark.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Star%400.5x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Star%402x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Star%404x-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Star-1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Icon\Star.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Level\Button\Dummy.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Level\Button\Locked.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Level\Button\Unlocked.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Level\Star\Active.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Level\Star\Group\0-3.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Level\Star\Group\1-3.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Level\Star\Group\2-3.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Level\Star\Group\3-3.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Level\Star\Unactive.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Load\Bullet.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Load\Example.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Load\Magazine\Bottom.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Load\Magazine\Dummy.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Load\Magazine\Top.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Scene\GameOver_Fullscreen.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Scene\Home.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Scene\LevelComplete_Fullscreen.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Scene\Levels.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Scene\Loading.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Scene\Pause_Fullscreen.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Star\Active.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\prinbles_ui\Star\Unactive.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\Standards\StandardGraphics\Red_BottomCenter.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\Standards\StandardGraphics\Red_BottomLeft.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\Standards\StandardGraphics\Red_BottomRight.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\Standards\StandardGraphics\Red_Center.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\Standards\StandardGraphics\Red_Left.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\Standards\StandardGraphics\Red_Right.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\Standards\StandardGraphics\Red_TopCenter.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\Standards\StandardGraphics\Red_TopLeft.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\Standards\StandardGraphics\Red_TopRight.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Content\GumLayout\UISpriteSheet.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Behaviors\ButtonBehavior.behx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Behaviors\CheckBoxBehavior.behx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Behaviors\ComboBoxBehavior.behx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Behaviors\DialogBoxBehavior.behx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Behaviors\InputDeviceSelectionItemBehavior.behx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Behaviors\InputDeviceSelectorBehavior.behx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Behaviors\LabelBehavior.behx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Behaviors\ListBoxBehavior.behx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Behaviors\ListBoxItemBehavior.behx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Behaviors\OnScreenKeyboardBehavior.behx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Behaviors\PasswordBoxBehavior.behx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Behaviors\PlayerJoinViewBehavior.behx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Behaviors\PlayerJoinViewItemBehavior.behx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Behaviors\RadioButtonBehavior.behx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Behaviors\ScrollBarBehavior.behx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Behaviors\ScrollViewerBehavior.behx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Behaviors\SettingsViewBehavior.behx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Behaviors\SliderBehavior.behx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Behaviors\TextBoxBehavior.behx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Behaviors\ToastBehavior.behx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Behaviors\ToggleBehavior.behx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Behaviors\TreeViewBehavior.behx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Behaviors\TreeViewItemBehavior.behx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Behaviors\UserControlBehavior.behx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Controls\ButtonClose.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Controls\ButtonConfirm.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Controls\ButtonDeny.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Controls\ButtonIcon.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Controls\ButtonStandard.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Controls\ButtonStandardIcon.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Controls\ButtonTab.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Controls\CheckBox.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Controls\ComboBox.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Controls\DialogBox.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Controls\InputDeviceSelectionItem.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Controls\InputDeviceSelector.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Controls\Keyboard.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Controls\KeyboardAnimations.ganx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Controls\KeyboardKey.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Controls\KeyboardKeyAnimations.ganx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Controls\ListBox.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Controls\ListBoxItem.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Controls\PasswordBox.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Controls\PlayerJoinView.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Controls\PlayerJoinViewItem.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Controls\RadioButton.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Controls\ScrollBar.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Controls\ScrollViewer.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Controls\SettingsView.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Controls\Slider.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Controls\TextBox.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Controls\TextBoxAnimations.ganx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Controls\Toast.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Controls\TreeView.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Controls\TreeViewItem.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Controls\TreeViewToggle.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Controls\TreeViewToggleAnimations.ganx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Controls\UserControl.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Elements\CautionLines.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Elements\Divider.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Elements\DividerHorizontal.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Elements\DividerHorizontalAnimations.ganx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Elements\DividerVertical.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Elements\DividerVerticalAnimations.ganx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Elements\Icon.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Elements\IconAnimations.ganx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Elements\Label.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Elements\PercentBar.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Elements\PercentBarIcon.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\Elements\VerticalLines.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\ExitButton.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\PlayButton.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\PlayButtonAnimations.ganx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Components\SettingsButton.gucx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\FontCache\Font10Arial.bmfc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\FontCache\Font10Arial.fnt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\FontCache\Font12Arial.bmfc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\FontCache\Font12Arial.fnt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\FontCache\Font14Arial.bmfc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\FontCache\Font14Arial.fnt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\FontCache\Font14Arial_Bold.bmfc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\FontCache\Font14Arial_Bold.fnt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\FontCache\Font14Arial_Italic.bmfc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\FontCache\Font14Arial_Italic.fnt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\FontCache\Font16Arial_Bold.bmfc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\FontCache\Font16Arial_Bold.fnt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\FontCache\Font18Arial.bmfc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\FontCache\Font18Arial.fnt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\FontCache\Font18Arial_Bold.bmfc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\FontCache\Font18Arial_Bold.fnt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\FontCache\Font22Arial_Bold.bmfc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\FontCache\Font22Arial_Bold.fnt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\FontCache\Font28Arial.bmfc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\FontCache\Font28Arial.fnt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\FontCache\Font28Arial_Bold.bmfc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\FontCache\Font28Arial_Bold.fnt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\FreeFantasyGUI\cdr\Button.cdr" />
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\FreeFantasyGUI\cdr\Windows.cdr" />
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\FreeFantasyGUI\svg\Button.svg" />
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\FreeFantasyGUI\svg\Windows.svg" />
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\gumlayout.gumx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\ProjectCodeSettings.codsj">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Screens\main_menu.codsj">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Screens\main_menu.gusx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Screens\main_menuAnimations.ganx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Standards\Circle.gutx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Standards\ColoredRectangle.gutx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Standards\Component.gutx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Standards\Container.gutx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Standards\NineSlice.gutx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Standards\Polygon.gutx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Standards\Rectangle.gutx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Standards\Sprite.gutx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Content\GumLayout\Standards\Text.gutx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Content\obj\BlazorGL\" />
+  </ItemGroup>
+</Project>

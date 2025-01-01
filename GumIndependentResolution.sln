@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GumIndependentResolution", "GumIndependentResolution", "{9B67AF4B-FB93-4B84-908A-8F922D806501}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "GumIndependentResolution.Shared", "src\GumIndependentResolution.Shared\GumIndependentResolution.Shared.shproj", "{B9CEDF7A-49A3-4C6A-8112-8C05DDDA6BD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GumIndependentResolution.DesktopGL", "src\GumIndependentResolution.DesktopGL\GumIndependentResolution.DesktopGL.csproj", "{DCECC9A8-EA89-4D98-A35D-979170C86482}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GumIndependentResolution.BlazorGL", "src\GumIndependentResolution.BlazorGL\GumIndependentResolution.BlazorGL.csproj", "{B878DFDE-CFE3-4E3E-9FE5-80E7FA386F86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GumIndependentResolution.Android", "src\GumIndependentResolution.Android\GumIndependentResolution.Android.csproj", "{754B6D63-D3B2-4038-98A6-2D9E0427C527}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GumIndependentResolution.WindowsDX", "src\GumIndependentResolution.WindowsDX\GumIndependentResolution.WindowsDX.csproj", "{B21B8D77-B77B-4219-984C-AD0D7EF849C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCECC9A8-EA89-4D98-A35D-979170C86482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCECC9A8-EA89-4D98-A35D-979170C86482}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCECC9A8-EA89-4D98-A35D-979170C86482}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCECC9A8-EA89-4D98-A35D-979170C86482}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B878DFDE-CFE3-4E3E-9FE5-80E7FA386F86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B878DFDE-CFE3-4E3E-9FE5-80E7FA386F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B878DFDE-CFE3-4E3E-9FE5-80E7FA386F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B878DFDE-CFE3-4E3E-9FE5-80E7FA386F86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{754B6D63-D3B2-4038-98A6-2D9E0427C527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{754B6D63-D3B2-4038-98A6-2D9E0427C527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{754B6D63-D3B2-4038-98A6-2D9E0427C527}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{754B6D63-D3B2-4038-98A6-2D9E0427C527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{754B6D63-D3B2-4038-98A6-2D9E0427C527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{754B6D63-D3B2-4038-98A6-2D9E0427C527}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B21B8D77-B77B-4219-984C-AD0D7EF849C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B21B8D77-B77B-4219-984C-AD0D7EF849C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B21B8D77-B77B-4219-984C-AD0D7EF849C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B21B8D77-B77B-4219-984C-AD0D7EF849C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B9CEDF7A-49A3-4C6A-8112-8C05DDDA6BD9} = {9B67AF4B-FB93-4B84-908A-8F922D806501}
+		{DCECC9A8-EA89-4D98-A35D-979170C86482} = {9B67AF4B-FB93-4B84-908A-8F922D806501}
+		{B878DFDE-CFE3-4E3E-9FE5-80E7FA386F86} = {9B67AF4B-FB93-4B84-908A-8F922D806501}
+		{754B6D63-D3B2-4038-98A6-2D9E0427C527} = {9B67AF4B-FB93-4B84-908A-8F922D806501}
+		{B21B8D77-B77B-4219-984C-AD0D7EF849C2} = {9B67AF4B-FB93-4B84-908A-8F922D806501}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		src\GumIndependentResolution.Shared\GumIndependentResolution.Shared.projitems*{754b6d63-d3b2-4038-98a6-2d9e0427c527}*SharedItemsImports = 5
+		src\GumIndependentResolution.Shared\GumIndependentResolution.Shared.projitems*{b21b8d77-b77b-4219-984c-ad0d7ef849c2}*SharedItemsImports = 5
+		src\GumIndependentResolution.Shared\GumIndependentResolution.Shared.projitems*{b878dfde-cfe3-4e3e-9fe5-80e7fa386f86}*SharedItemsImports = 5
+		src\GumIndependentResolution.Shared\GumIndependentResolution.Shared.projitems*{b9cedf7a-49a3-4c6a-8112-8c05ddda6bd9}*SharedItemsImports = 13
+		src\GumIndependentResolution.Shared\GumIndependentResolution.Shared.projitems*{dcecc9a8-ea89-4d98-a35d-979170c86482}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal

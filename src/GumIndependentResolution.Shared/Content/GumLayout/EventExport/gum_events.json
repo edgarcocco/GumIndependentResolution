@@ -1,0 +1,48 @@
+{
+  "UserEvents": {
+    "edgar": [
+      {
+        "NewName": "main_menu.ContainerInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-12-22T00:03:26.5570872Z"
+      },
+      {
+        "NewName": "main_menu.SpriteInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-12-22T00:03:31.6248568Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "main_menu.PlayButton PlayButtonInstance in main_menu",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-12-22T00:03:42.161859Z"
+      },
+      {
+        "NewName": "main_menu.PlayButtonInstance",
+        "OldName": null,
+        "ElementType": "Screens",
+        "EventType": 5,
+        "TimestampUtc": "2024-12-22T00:08:29.7754609Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "main_menu.Container ContainerInstance in main_menu",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-12-22T00:08:39.4229494Z"
+      },
+      {
+        "NewName": null,
+        "OldName": "main_menu.Sprite SpriteInstance in main_menu",
+        "ElementType": "Screens",
+        "EventType": 6,
+        "TimestampUtc": "2024-12-22T00:08:39.5003497Z"
+      }
+    ]
+  }
+}
